@@ -1,0 +1,7 @@
+.gitbook-link {
+    display: none !important;
+}
+
+#anchor-navigation-ex-navbar ul{
+    display: block !important;
+}

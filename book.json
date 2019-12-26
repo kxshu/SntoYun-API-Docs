@@ -1,0 +1,42 @@
+{
+	"title" : "盛通云API文档",
+	"author" : "SNTO",
+	"description" : "盛通云平台开放接口规范与说明",
+    "language" : "zh-hans",
+    "styles":{
+        "website":"styles/custom.css"
+    },
+	"plugins": [
+        "-lunr",
+        "-search",
+        "-sharing",
+        "livereload",
+        "favicon",
+        "highlight",
+        "search-plus",
+        "splitter",
+        "tbfed-pagefooter",
+        "anchor-navigation-ex",
+        "lightbox"
+    ],
+    "pluginsConfig": {
+        "theme-default": {
+            "showLevel": false
+        },
+        "tbfed-pagefooter": {
+            "copyright": "Copyright © SNTO 2019",
+            "modify_label": "该文件修订时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        },
+        "anchor-navigation-ex": {
+            "isRewritePageTitle": false,
+            "showLevel": false, 
+            "showGoTop": true,
+            "mode":"float"
+        },
+        "favicon": {
+            "shortcut": "favicon.ico",
+            "bookmark": "favicon.ico"
+        }
+    }
+}
